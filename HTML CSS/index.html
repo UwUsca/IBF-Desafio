@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/24a028cc87.js" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
+</head>
+
+<body>
+    <div id="divTop">
+        <div id="divLogo"><img src="imgs/icon.png"><b>Rhino Team</b><img src="imgs/icon.png"
+                style="transform: scaleX(-1);"></div>
+    </div>
+    <div id="divContainer">
+        <h1>ENTRE EM CONTATO</h1>
+        <div id="divForms">
+            <form>
+                <label>Seu Nome:<b style="color: red;">*</b></label><br>
+                <input type="text" placeholder="Insira seu Nome completo"><br>
+                <label>Seu Email:<b style="color: red;">*</b></label><br>
+                <input type="email" placeholder="Insira seu Email"><br>
+                <label>Telefone:<b style="color: red;">*</b></label><label
+                    style="opacity: 50%; font-size: 10px;">Somente números!</label><br>
+                <input type="text" placeholder="(XX)XXXXX-XXXX" maxlength=11
+                    oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');"><br>
+                <label>Assunto:<b style="color: red;">*</b></label><br>
+                <input type="text" placeholder="Assunto da mensagem"><br>
+                <label>Mensagem:<b style="color: red;">*</b></label><br>
+                <textarea></textarea><br>
+                <br>
+                <button>Enviar</button>
+            </form>
+        </div>
+    </div>
+    <div id="divBottom">
+        <div>
+            <img src="imgs/icon.png" title="Rhino Team">
+        </div>
+        <div>
+            <p><i class="fa-solid fa-location-dot"></i> Endereço</p>
+            <p class="pInfos">Edifício Neo Business <br>
+                Rua Heitor Stockler de França N° 396<br>
+                Centro Cívico - Curitiba - PR</p>
+        </div>
+        <div>
+            <p><i class="fa-solid fa-phone"></i> Telefone</p>
+            <p class="pInfos">(41) 3018-4551</p>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,131 @@
+body {
+    height: auto;
+    margin: 0%;
+    font-family: 'ABeeZee';
+    background-image: url("imgs/forest.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    flex-direction: column;
+    justify-content: space-between !important;
+    row-gap: 10%;
+}
+
+body,
+#divTop,
+#divLogo,
+#divBottom,
+#divContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#divTop {
+    background-image: linear-gradient(#548e25, #3d6d38);
+    height: 6%;
+    width: 100%;
+}
+
+#divBottom {
+    background-image: linear-gradient(#548e25, #3d6d38);
+    color: #FFF;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly !important;
+}
+
+#divBottom img {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    zoom: 200%;
+}
+
+#divBottom i {
+    width: 20px;
+    text-align: center;
+    margin: 0;
+}
+
+#divBottom p {
+    margin: 10px 0px 10px 0px;
+    font-size: 100%;
+}
+
+#divLogo {
+    height: 100%;
+    width: 30%;
+    font-size: 25px;
+    color: #FFF;
+}
+
+#divLogo img {
+    height: 100%;
+    width: 100%;
+    max-width: 40px;
+    max-height: 40px;
+    margin: 10px;
+}
+
+#divContainer {
+    flex-direction: column;
+    background-image: linear-gradient(#f2f2f2, #e6e6e6);
+    width: 650px;
+    height: 650px;
+    border-radius: 15px;
+}
+
+h1 {
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    text-shadow: #CCC 5px 0 10px;
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+
+#divForms {
+    width: 70%;
+    height: 80%;
+}
+
+form {
+    height: 100%;
+    width: 100%;
+}
+
+label {
+    font-size: 20px;
+    color: #121212;
+    padding-left: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    height: 6.7%;
+    font-size: 15px;
+    padding: 15 15 15 15;
+    margin-bottom: 3%;
+    border: solid 1px #CCC;
+    border-radius: 15px;
+}
+
+textarea {
+    resize: none;
+    height: 20% !important;
+    font-size: 15px !important;
+    padding: 10 15 15 15;
+}
+
+button {
+    font-size: 20px;
+    color: #FFF;
+    padding: 15px;
+    width: 200px;
+    border-radius: 15px;
+    border: none;
+    background-image: linear-gradient(#85d049, #78cb34);
+    float: right;
+}
